@@ -12,17 +12,19 @@ To run this project locally you need to have the following:
 
 ## Obtaining Amadeus Credentials
 
-All requests to the Amadeus APIs need to be authenticated with an API key and an API secret. To get these credentials, open [My Self-Service Workspace](https://developers.amadeus.com/my-apps) and select **Create a new app**:
+All requests to the Amadeus APIs need to be authenticated with an API key and an API secret. To get these credentials:
 
-![Amadeus self-service workspace](https://i.imgur.com/a022DLw.png)
+1. Open [My Self-Service Workspace](https://developers.amadeus.com/my-apps) and select **Create a new app**:
 
-On the "Create new app" page, provide "amadeus-django-rest-api" as the name of the app and select **Create**:
+    ![Amadeus self-service workspace](https://i.imgur.com/a022DLw.png)
 
-![Providing app details](https://i.imgur.com/r9DyC0n.png)
+2. On the "Create new app" page, provide "amadeus-django-rest-api" as the name of the app and select **Create**:
 
-Once the app is created successfully, you will be navigated to the app details page where you will find your API key and API secret. Take note of these credentials as you will use them later:
+    ![Providing app details](https://i.imgur.com/r9DyC0n.png)
 
-![App details page](https://i.imgur.com/BR8BUUk.png)
+3. Once the app is created successfully, you will be navigated to the app details page where you will find your API key and API secret. Take note of these credentials as you will use them later:
+
+    ![App details page](https://i.imgur.com/BR8BUUk.png)
 
 ### Running Locally
 
